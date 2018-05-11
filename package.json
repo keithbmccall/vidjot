@@ -1,0 +1,15 @@
+{
+  "name": "vidjot",
+  "version": "1.0.0",
+  "description": "Video App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keith McCall",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
