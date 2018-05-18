@@ -26,7 +26,7 @@ ideas.createNewIdea = (req, res, next) => {
   !req.body.title && errors.push({ text: "please add a title" });
   !req.body.details && errors.push({ text: "please add a details" });
   //
-  if (errors.length > 1) {
+  if (errors.length > 0) {
     res.render("ideas/add", { errors, title, details });
   } else {
     const newUser = {
